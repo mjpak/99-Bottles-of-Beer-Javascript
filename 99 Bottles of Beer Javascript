@@ -1,0 +1,14 @@
+//lyrics "99 bottles of beer on the wall, 99 bottles of beer.Take one down, pass it around, 98 bottles of beer on the wall."
+
+var bottles = 99
+while (bottles >= 0) {
+    var count = "bottle";
+    if (bottles === 1) {
+        count = "bottles";
+    } 
+    console.log(bottles + " " + count + " of beer on the wall");
+    console.log(bottles + " " + count + " of beer,");
+    console.log("Take one down, pass it around,");
+	bottles--;
+    console.log(bottles + " " + count + " of beer on the wall.");
+}
